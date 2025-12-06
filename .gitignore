@@ -1,0 +1,59 @@
+# ---------------------------------------
+# Go
+# ---------------------------------------
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build cache
+/build/
+bin/
+dist/
+
+# Go modules
+vendor/
+
+# Local environment files
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+
+# IDEs
+# VSCode
+.vscode/
+# JetBrains
+.idea/
+*.iml
+
+# ---------------------------------------
+# Docker
+# ---------------------------------------
+# Compose override
+docker-compose.override.yml
+
+# Named volumes (avoid committing accidentally)
+data/
+volumes/
+
+# ---------------------------------------
+# Databases
+# ---------------------------------------
+# Avoid committing mysql storage directories
+mysql/
+mysql-data/
+db-data/
+database/
