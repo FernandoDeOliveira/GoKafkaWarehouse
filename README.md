@@ -1,7 +1,3 @@
-Aqui está o **README.md completo**, técnico, direto e adequado para recrutadores:
-
----
-
 # **GoKafkaWarehouse**
 
 GoKafkaWarehouse is a real-time ETL pipeline implemented with **Go**, **Debezium**, **Kafka**, and **MySQL** (as both OLTP source and OLAP target).
